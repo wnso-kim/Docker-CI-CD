@@ -23,7 +23,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
           application_name: react-docker-gh-test
           environment_name: React-docker-gh-test-env 
-          existing_bucket_name: elasticbeanstalk-ap-northeast-2-972153559337
+          existing_bucket_name: elasticbeanstalk-ap-northeast-2-471112552539
           region: ap-northeast-2
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
